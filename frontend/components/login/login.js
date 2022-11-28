@@ -40,7 +40,6 @@ const Login = () => {
 
   const changeHandler = (e) => {
     setData({ ...data, [e.target.name]: e.target.value });
-    // setPasswordType(e.target.value);
   };
 
   const focusHandler = (e) => {
@@ -85,10 +84,6 @@ const Login = () => {
         <Grid
           mt={15}
           item
-          // bgcolor="#28DEC0"
-          // width="350px"
-          // boxShadow={2}
-          // borderRadius={1}
         >
           <Card sx={{ bgcolor: "#fff", margin: "10px", boxShadow: 3 }}>
             <CardContent>
